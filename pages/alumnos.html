@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EES N°1 - Alumnos</title>
+</head>
+<body>
+    <div class="main-wrapper">
+      <header>
+        <div class="contenedor">
+          <section class="datos">
+              <h1 id="header-titulo">E.E.S. N°1</h1>
+          </section>
+          <section class="logo">
+            <img src="../public/logo.png" alt="Logo de la Institución" width="120"height="120">
+        </section>
+        </div>
+
+      </header>
+        
+        <nav>
+          <section class="nav-menu">
+              <ul id="nav-lista">
+              
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
+                <li><a href="../pages/ofertaeducativa.html">OFERTA EDUCATIVA</a></li>
+                <li><a href="../pages/alumnos.html">ALUMNOS</a></li>
+                <li><a href="../pages/docentes.html">DOCENTES</a></li>
+                
+              </ul>
+            </section>
+              </nav>
+
+        <main>
+            <section id="home-main-contenido"> 
+              
+              <div class="main-grid">
+                <article class="fichas">
+                  <h2 id="home-h2">Fichas y Formularios</h2>
+                  &nbsp;
+                  <p>Haciendo click sobre la imagen o el texto podrán acceder a las fichas y formularios en versión .pdf para que los descarguen, completen y envíen a la escuela o los presentes personalmente a las autoridades del Colegio.</p>
+                  &nbsp;
+                  <ul id="tablaalumnos">
+                    <li>
+                      <a href="falta linkear" target="_blank"><img src="../public/pdf logo.png" alt="incompatibilidad" width="100" height="100"></a> Ficha Inscripción
+                  </li>
+               
+                  <li>
+                    <a href="falta linkear" target="_blank"><img src="../public/pdf logo.png" alt="incompatibilidad" width="100" height="100"></a> Ficha Salud</td>
+                    
+                    </li>
+                    <li>
+                      <a href="falta linkear" target="_blank"><img src="../public/pdf logo.png" alt="incompatibilidad" width="100" height="100"></a> Reglamento Interno</td>
+                      
+                      </li>
+                      <li>
+                        <a href="falta linkear" target="_blank"><img src="../public/pdf logo.png" alt="incompatibilidad" width="100" height="100"></a> AICS</td>
+                        
+                        </li>
+                    </ul>
+                </article>
+                <article class="actividades">
+                  <h2 id="home-h2">Actividades y Recursos Educativos</h2>
+                   &nbsp; 
+                   <p>A continuación encontrarán el código de classroom que corresponde a su curso o materia, junto con el material de trabajo indicado por el profesor a cargo de la misma: </p>
+                       &nbsp; 
+                   <div>
+                     <ul>
+                       <li><a href="FALTA LINKEAR"></a>1°A</li>
+                       <li><a href="FALTA LINKEAR"></a>1°B</li>
+                       <li><a href="FALTA LINKEAR"></a>2°A</li>
+                       <li><a href="FALTA LINKEAR"></a>2°B</li>
+                       <li><a href="FALTA LINKEAR"></a>3°A</li>
+                       <li><a href="FALTA LINKEAR"></a>3°B</li>
+                       <li><a href="FALTA LINKEAR"></a>4°A</li>
+                       <li><a href="FALTA LINKEAR"></a>4°B</li>
+                       <li><a href="FALTA LINKEAR"></a>5°A</li>
+                       <li><a href="FALTA LINKEAR"></a>5°B</li>
+                       <li><a href="FALTA LINKEAR"></a>6°A</li>
+                       <li><a href="FALTA LINKEAR"></a>6°B</li>
+                     </ul>
+                  </div> 
+                </article>
+
+
+               </div>
+               &nbsp;
+               <article class="formmobile">
+                <h4>Consultas</h4>                
+                        <form id="formulario" action="submeter-formulario.php" method="post">       
+              
+                          
+                              <p>
+                                <label for="nombre" class="colocar_nombre">Nombre
+                                  <span class="obligatorio">*</span>
+                                </label>
+                                  <input type="text" name="introducir_nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                              </p>
+                            
+                              <p>
+                                <label for="email" class="colocar_email">Email
+                                  <span class="obligatorio">*</span>
+                                </label>
+                                  <input type="email" name="introducir_email" required="obligatorio" placeholder="Escribe tu Email">
+                              </p>
+                          
+                              <p>
+                                <label for="telefone" class="colocar_telefono">Teléfono
+                                </label>
+                                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                              </p>    
+                      
+                              <p>
+                                <label for="asunto" class="colocar_asunto">Asunto
+                                  <span class="obligatorio">*</span>
+                                </label>
+                                  <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                              </p>    
+                            
+                              <p>
+                                <label for="mensaje" class="colocar_mensaje">Mensaje
+                                  <span class="obligatorio">*</span>
+                                </label>                     
+                                                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                              </p>                    
+                            
+                              <button type="submit" name="enviar_formulario"><p>Enviar</p></button>
+                              <button type="reset" name="limpiarcampos"><p>Limpiar Campos</p></button>
+              
+                                <span id="aside-obligatorio"> * </span>los campos son obligatorios.
+      
+      
+                                
+                              </p>          
+                          
+                        </form>
+      
+                        <h5 id="aside-contacto">Nos contactaremos a la brevedad</h5 >
+      
+              </article>
+
+                </section>
+                        <section>
+                        <aside class="home-aside">
+                              <h4>Consultas</h4>
+                              <article>                
+                                        <form id="formulario" action="submeter-formulario.php" method="post">       
+                              
+                                          
+                                              <p>
+                                                <label for="nombre" class="colocar_nombre">Nombre
+                                                  <span class="obligatorio">*</span>
+                                                </label>
+                                                  <input type="text" name="introducir_nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                              </p>
+                                            
+                                              <p>
+                                                <label for="email" class="colocar_email">Email
+                                                  <span class="obligatorio">*</span>
+                                                </label>
+                                                  <input type="email" name="introducir_email" required="obligatorio" placeholder="Escribe tu Email">
+                                              </p>
+                                          
+                                              <p>
+                                                <label for="telefone" class="colocar_telefono">Teléfono
+                                                </label>
+                                                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                              </p>    
+                                      
+                                              <p>
+                                                <label for="asunto" class="colocar_asunto">Asunto
+                                                  <span class="obligatorio">*</span>
+                                                </label>
+                                                  <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                              </p>    
+                                            
+                                              <p>
+                                                <label for="mensaje" class="colocar_mensaje">Mensaje
+                                                  <span class="obligatorio">*</span>
+                                                </label>                     
+                                                                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                                              </p>                    
+                                            
+                                              <button type="submit" name="enviar_formulario"><p>Enviar</p></button>
+                                              <button type="reset" name="limpiarcampos"><p>Limpiar Campos</p></button>
+                              
+                                                <span id="aside-obligatorio"> * </span>los campos son obligatorios.
+              
+              
+                                                
+                                              </p>          
+                                          
+                                        </form>
+              
+                                        <h5 id="aside-contacto">Nos contactaremos a la brevedad</h5 >
+              
+                              </article>
+                            </aside>
+                          </section>
+   
+                        </div>
+
+                        <footer class="footer">
+                          <article class="footizq">
+                          <h3 id="escuela">Escuela de Educación Secundaria N°1</h3>
+                          <h3>Calle Falsa 123</h3>
+                          <h3>Distrito X</h3>
+                          <h3>Horario de atención: 7:30 a 18:00 hs.</h3>
+                          <h3>©Copyright 2022 - Nicolas Pedro Verón   ///    Todos los derechos reservados.</h3 >
+                            </article>
+                              <article class="footder">
+                              <table>
+                      <th><a href="https://ultramsg.com/m/3Nw04V1" target="_blank"><img src="../public/whatsapp.png" alt="Whatsapp" width="40" height="40"></a> </th>
+                      <th>  <a href="https://www.instagram.com"target="_blank"><img src="../public/instagram.png" alt="Instagram" width="40" height="40"></a></th>
+                      <th>  <a href="mailto:correofalso123@gmail.com"target="_blank"><img src="../public/gmail.png" alt="Gmail" width="40" height="40"></a></th>
+                      <th> <a href="https://www.facebook.com"target="_blank"></a><img src="../public/facebook.png" alt="Facebook" width="40" height="40"></a></th>
+                    </table>
+                    
+                            </article>
+                                            </footer>
+        
+        </div>    
+    
+</body>
+</html>

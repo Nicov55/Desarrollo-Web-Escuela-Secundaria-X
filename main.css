@@ -1,0 +1,448 @@
+* {margin: 0%;padding: 0;}
+
+/* BASE DEL DOCUMENTO */
+
+body {
+    background-color: rgb(234, 239, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
+}
+
+.main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+grid-template-areas: 
+"header header"
+"nav nav"
+"main main"
+"footer footer";
+
+}
+
+
+/* ACTIVADOR DE BORDES DE CONTENEDORES
+header,nav,main,footer,aside {border: solid red 1px} */
+
+header {grid-area: header;
+width: 100%;
+height: 200px;
+background-image: url(./public/back1.jpg); 
+background-size: cover; 
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: auto;
+background-color: rgb(234, 239, 233);
+}
+
+nav {
+    grid-area: nav;
+    padding-top: 20px;
+}
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 80% 15%;
+    gap: 3em;
+    
+;}
+
+aside {
+    grid-area: aside
+}
+footer {
+    grid-area: footer;
+    display: grid;
+grid-template-columns: min-content 1fr 1fr;
+gap: 2em;
+width: 100%;
+    
+}
+
+/* --------HEADER--------- */
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;   
+ ;
+}
+.datos {
+    align-items: center;
+    justify-content: center;
+    justify-items: center
+;
+}
+
+#header-titulo {
+    color: rgb(49, 70, 54);
+     text-align: center;
+     justify-content: center;
+     text-shadow: 2px 2px 4px rgb(131, 131, 131);
+     font-size: 20pt
+;}
+
+#header-datos {
+        color: rgb(63, 63, 63); 
+        text-align: left;
+    }
+
+
+/* --------NAV--------- */
+
+nav {
+    align-items: center;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.nav-menu {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+#nav-lista {
+    width: 100%;
+     text-align: center;
+      font-weight: bold;
+       color: rgb(4, 165, 165);
+       margin: 0;
+       padding: 0;
+       list-style: none;
+      
+
+}
+#nav-lista li {
+    display:inline;
+    padding: 0px 10px;
+    text-align: center;
+  
+}
+
+#nav-lista li:hover  {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+
+/* --------MAIN--------- */
+
+
+#home-main-contenido {
+    background: white; 
+    padding-top: 2em; 
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between 2em;
+    background-color: rgb(234, 239, 233);
+
+}
+
+
+#home-h2 {
+    text-decoration: underline;
+    color: rgb(2, 110, 110);
+    font-size: 15pt; 
+}
+
+main h3 {
+    font-size: 12pt;
+}
+
+main h4 {
+    font-size: 11pt;
+}
+
+main h5 {
+    font-size: 10pt;
+}
+
+main p {
+    font-size: 9pt;
+
+}
+
+main li {
+    font-size: 9pt;
+}
+
+
+
+/* --------MAIN(NOSOTROS)-------- */
+
+
+.ubicacion {
+   
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubicacion iframe {
+    width: 250px;
+    height: 250px;
+    border:solid rgb(14, 161, 161);
+    border-radius: 30px;
+}
+
+#home-h2 {
+        text-decoration: underline;
+        color: rgb(2, 110, 110);
+        font-size: 13pt;
+        text-align: left; 
+}
+
+#home-h2ubi {
+    text-decoration: underline;
+    color: rgb(2, 110, 110);
+    font-size: 13pt;
+    text-align: left; 
+}
+
+li {margin-bottom: 20px;}
+
+/* --------MAIN(ALUMNOS)-------- */
+.fichas {
+    padding: 20px;
+    border-radius: 20px;
+    border: solid rgb(0, 173, 116) 2px;
+}
+
+.actividades {
+    padding: 20px;
+    border-radius: 20px;
+    border: solid rgb(0, 173, 116) 2px
+    
+}
+
+#tablaalumnos{
+    font-size: small; text-align-last: auto;
+}
+
+/* --------MAIN(DOCENTES)-------- */
+
+
+#tabladocentes {
+
+    list-style: none;
+    font-size: small  ;
+    align-items: left;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+}
+
+/* --------ASIDE-------- */
+
+.formmobile
+{
+    border-radius: 20px;
+    border: solid 2px black;
+    padding: 10px;
+    align-self: center;
+
+}
+
+.contenedoraside {
+    margin-right: 0;
+    align-self: right;
+    padding: 20px;
+}
+
+.home-aside {
+    visibility: hidden;
+    height: 450px;
+    background: rgba(207, 207, 207, 0.541); 
+    margin-top: 20px;
+    border-color:rgb(0, 172, 172) ; 
+    border-radius: 10px 10px 0px 0px; 
+    box-shadow: 10px black; 
+    text-align: center; 
+    align-items: stretch; 
+    justify-content: stretch; 
+    padding-top: 20px;
+    padding-right: 10px;
+    overflow: hidden;
+    
+}
+
+#formulario {
+    font-size: 10pt;
+}
+
+#formulario label, input, p, span {
+    font-size: 9pt;
+}
+#aside-obligatorio {
+    font-size: 8pt;
+}
+
+#aside-contacto {
+        margin-top: 10px;
+        font-size: 8pt;
+}
+
+
+
+/* --------FOOTER-------- */
+    .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    grid-template-areas: 
+    "footizq footder";
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center; 
+    color: rgba(0, 0, 0, 0.473); 
+    font-family: 'Courier New', Courier, monospace; 
+    background: rgba(207, 207, 207, 0.541);  
+    margin-right: 0;
+  }
+
+  h3 {
+    font-style: italic; font-size: 8pt; color: black;
+      
+}
+.footizq {
+    grid-area: footizq;
+    text-align: left;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    font-style: oblique;
+    font-size: 11pt;
+}
+.footder {
+    grid-area: footder;
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+li {margin-bottom: 20px;}
+
+/*======== MEDIA QUERY ========*/
+
+@media screen and (min-width:768px) 
+
+{
+/* NAV */
+
+    #nav-lista li {
+       padding: 0px 20px;
+}
+
+/* --------MAIN GRID (NOSOTROS)-------- */
+
+.main-grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    grid-template-areas: 
+    "izquierda derecha";
+}
+
+.ubicacion {
+    grid-area: derecha;
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubicacion iframe {
+    width: 300px;
+    height: 600px;
+    border:solid rgb(14, 161, 161);
+    border-radius: 30px;
+}
+
+#home-h2ubi {
+    text-decoration: underline;
+    color: rgb(2, 110, 110);
+    font-size: 13pt;
+    text-align: center; 
+}
+
+li {margin-bottom: 20px;}
+
+/* MAIN DOCENTES */
+
+#tabladocentes {
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    list-style: none;
+
+
+    border-spacing: 20px;
+    font-size: small  ;
+    align-items: flex-start;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+/* ASIDE */
+
+.home-aside {
+    visibility: visible;
+}
+
+.formmobile
+{
+    visibility: hidden;
+}
+
+/* FONT SIZES */
+
+#home-h2 {
+    text-decoration: underline;
+    color: rgb(2, 110, 110);
+    font-size: 17pt; 
+}
+
+main h3 {
+    font-size: 14pt;
+}
+
+main h4 {
+    font-size: 13pt;
+}
+
+main h5 {
+    font-size: 12pt;
+}
+
+main p {
+    font-size: 11pt;
+}
+
+nav {
+    font-size: 12pt;
+}
+
+/* FOOTER */
+
+.footer table {
+    border-spacing: 40px 10px;
+    padding-bottom: 10px;
+}
+}
