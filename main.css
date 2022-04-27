@@ -90,6 +90,15 @@ width: 100%;
      font-size: 20pt
 ;}
 
+.datos {
+    animation-delay: 0ms;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation-name: animaciontitulo;
+    animation-duration: 3s; 
+}
+
+
 #header-datos {
         color: rgb(63, 63, 63); 
         text-align: left;
@@ -337,6 +346,22 @@ li {margin-bottom: 20px;}
 
 
 li {margin-bottom: 20px;}
+
+
+/*======== ANIMACIONES ========*/
+
+@keyframes animaciontitulo {
+    from {
+        margin-top: 100%;
+        height: 300%
+      }
+    
+      to {
+        margin-top: 0%;
+        height: 100%;
+      }
+    
+}
 
 /*======== MEDIA QUERY ========*/
 
