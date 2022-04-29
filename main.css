@@ -49,9 +49,7 @@ main {
     
 ;}
 
-aside {
-    grid-area: aside
-}
+
 footer {
     grid-area: footer;
 
@@ -107,10 +105,14 @@ width: 100%;
 
 /* NAV BS */
 
+nav {
+    padding: 0%;
+}
+
 .navbar-nav {
     padding-top: 12px;
 }
-.d-flex {
+nav .d-flex {
     padding-bottom: 15px;
 }
 .navbar-nav li {
@@ -121,51 +123,12 @@ width: 100%;
         border-radius: 10px;
 }
 .navbar {
-    background-color: rgb(217, 233, 228);
+    background-color: rgb(192, 238, 175);
 }
 
 .navbar-brand {
     padding-top: 10px;
     font-size: 15pt;
-}
-
-/* NAV VIEJO */
-
-nav {
-    align-items: center;
-    text-align: center;
-    font-size: 10pt;
-    padding: 0%;
-}
-
-.nav-menu {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-}
-
-#nav-lista {
-    width: 100%;
-     text-align: center;
-      font-weight: bold;
-       color: rgb(4, 165, 165);
-       margin: 0;
-       padding: 0;
-       list-style: none;
-      
-
-}
-#nav-lista li {
-    display:inline;
-    padding: 0px 10px;
-    text-align: center;
-  
-}
-
-#nav-lista li:hover  {
-    background-color: #ccc;
-    border-radius: 10px;
 }
 
 
@@ -287,63 +250,28 @@ li {margin-bottom: 20px;}
 }
 
 /* --------ASIDE-------- */
-
-.formmobile
-{
-    border-radius: 20px;
-    border: solid 2px black;
-    padding: 10px;
-    align-self: center;
-    margin-bottom: 10px;
-
+aside .nav-item {
+    background-color: rgb(192, 238, 175)
 }
 
-.contenedoraside {
-    margin-right: 0;
-    align-self: right;
-    padding: 20px;
+aside nav {
+    background-color: rgb(192, 238, 175)
 }
 
-.home-aside {
-    visibility: hidden;
-    height: 450px;
-    background: rgba(207, 207, 207, 0.541); 
-    margin-top: 20px;
-    border-color:rgb(0, 172, 172) ; 
-    border-radius: 10px 10px 0px 0px; 
-    box-shadow: 10px black; 
-    text-align: center; 
-    align-items: stretch; 
-    justify-content: stretch; 
-    padding: 20px;
-    overflow: hidden;
-    
+aside {
+    align-items: right;
+    padding: 0%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    justify-self: right;
+    margin-right: 25px;
 }
-
-#formulario {
-    font-size: 10pt;
-}
-
-#formulario label, input, p, span {
-    font-size: 9pt;
-}
-#aside-obligatorio {
-    font-size: 8pt;
-}
-
-#aside-contacto {
-        margin-top: 10px;
-        font-size: 8pt;
-}
-
-
-
-
 /* --------FOOTER-------- */
 
 
   .page-footer {
-    background: rgba(207, 207, 207, 0.541); 
+    background-color: rgb(192, 238, 175); 
   }
 
   #footerdatos1 {
