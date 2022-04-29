@@ -44,7 +44,7 @@ nav {
 main {
     grid-area: main;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 90% 10%;
     gap: 1.5em;
     
 ;}
@@ -193,6 +193,7 @@ footer h6 { font-size: 9pt;
     padding-top: 30px;
     align-items: center;
     justify-content: center;
+    justify-self: right;
 }
 
 .ubicacion iframe {
@@ -234,19 +235,6 @@ li {margin-bottom: 20px;}
 
 #tablaalumnos{
     font-size: small; text-align-last: auto;
-}
-
-/* --------MAIN(DOCENTES)-------- */
-
-
-#tabladocentes {
-
-    list-style: none;
-    font-size: small  ;
-    align-items: left;
-    justify-content: left;
-    justify-items: left;
-    text-align: left;
 }
 
 /* --------ASIDE-------- */
@@ -377,6 +365,11 @@ li {margin-bottom: 20px;}
     justify-content: center;
     justify-items: center;
     text-align: center;
+}
+
+main .col {
+    text-align: center;
+    font-size: 8pt
 }
 
 /* ASIDE */
