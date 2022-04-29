@@ -44,8 +44,8 @@ nav {
 main {
     grid-area: main;
     display: grid;
-    grid-template-columns: 80% 15%;
-    gap: 3em;
+    grid-template-columns: 80% 20%;
+    gap: 1.5em;
     
 ;}
 
@@ -54,9 +54,7 @@ aside {
 }
 footer {
     grid-area: footer;
-    display: grid;
-grid-template-columns: min-content 1fr 1fr;
-gap: 2em;
+
 width: 100%;
     
 }
@@ -217,6 +215,10 @@ main li {
     font-size: 9pt;
 }
 
+footer h6 { font-size: 9pt;
+
+}
+
 
 
 /* --------MAIN(NOSOTROS)-------- */
@@ -313,8 +315,7 @@ li {margin-bottom: 20px;}
     text-align: center; 
     align-items: stretch; 
     justify-content: stretch; 
-    padding-top: 20px;
-    padding-right: 10px;
+    padding: 20px;
     overflow: hidden;
     
 }
@@ -337,48 +338,29 @@ li {margin-bottom: 20px;}
 
 
 
+
 /* --------FOOTER-------- */
-    .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    grid-template-areas: 
-    "footizq footder";
-    text-align: center;
-    align-items: center;
-    align-self: center;
-    align-content: center; 
-    color: rgba(0, 0, 0, 0.473); 
-    font-family: 'Courier New', Courier, monospace; 
-    background: rgba(207, 207, 207, 0.541);  
-    margin-right: 0;
+
+
+  .page-footer {
+    background: rgba(207, 207, 207, 0.541); 
+  }
+
+  #footerdatos1 {
+    visibility: hidden;
+    display: none;
   }
 
   h3 {
     font-style: italic; font-size: 8pt; color: black;
-      
-}
-.footizq {
-    grid-area: footizq;
-    text-align: left;
-    padding-top: 10px;
-    align-items: center;
-    justify-content: center;
-    font-style: oblique;
-    font-size: 11pt;
-}
-.footder {
-    grid-area: footder;
-    text-align: center;
-    padding-top: 30px;
-    align-items: center;
-    justify-content: center;
-}
+  }
 
-
-
-li {margin-bottom: 20px;}
-
+  footer h5 {
+      font-size: 12pt bold;
+      text-align: center;
+     
+  }
+ 
 
 /*======== ANIMACIONES ========*/
 
@@ -510,8 +492,18 @@ nav {
 
 /* FOOTER */
 
+#footerdatos2 {
+    visibility: hidden;
+    display: none;
+  }
+
 .footer table {
     border-spacing: 40px 10px;
     padding-bottom: 10px;
 }
+
+#footerdatos1 {
+    visibility: visible;
+    display:block
+  }
 }
