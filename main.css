@@ -95,7 +95,7 @@ width: 100%;
     display: inline-block;
     margin: 0 0.5rem;
     animation-name: animaciontitulo;
-    animation-duration: 3s; 
+    animation-duration: 2s; 
 }
 
 
@@ -107,10 +107,37 @@ width: 100%;
 
 /* --------NAV--------- */
 
+/* NAV BS */
+
+.navbar-nav {
+    padding-top: 12px;
+}
+.d-flex {
+    padding-bottom: 15px;
+}
+.navbar-nav li {
+    font-size: 14pt;
+}
+.navbar-nav li:hover {
+        background-color: #ccc;
+        border-radius: 10px;
+}
+.navbar {
+    background-color: rgb(217, 233, 228);
+}
+
+.navbar-brand {
+    padding-top: 10px;
+    font-size: 15pt;
+}
+
+/* NAV VIEJO */
+
 nav {
     align-items: center;
     text-align: center;
     font-size: 10pt;
+    padding: 0%;
 }
 
 .nav-menu {
@@ -155,9 +182,13 @@ nav {
     flex-direction: column;
     justify-content: space-between 2em;
     background-color: rgb(234, 239, 233);
+    text-align: left;
 
 }
 
+main ul {
+    list-style: none;
+}
 
 #home-h2 {
     text-decoration: underline;
@@ -261,6 +292,7 @@ li {margin-bottom: 20px;}
     border: solid 2px black;
     padding: 10px;
     align-self: center;
+    margin-bottom: 10px;
 
 }
 
@@ -353,7 +385,7 @@ li {margin-bottom: 20px;}
 @keyframes animaciontitulo {
     from {
         margin-top: 100%;
-        height: 300%
+        height: 200%
       }
     
       to {
@@ -365,6 +397,17 @@ li {margin-bottom: 20px;}
 
 /*======== MEDIA QUERY ========*/
 
+@media screen and (min-width:991px){
+    
+.navbar-brand {
+    visibility: hidden;
+    overflow: hidden;
+    display:none
+}
+
+}
+
+
 @media screen and (min-width:768px) 
 
 {
@@ -373,6 +416,7 @@ li {margin-bottom: 20px;}
     #nav-lista li {
        padding: 0px 20px;
 }
+
 
 /* --------MAIN GRID (NOSOTROS)-------- */
 
