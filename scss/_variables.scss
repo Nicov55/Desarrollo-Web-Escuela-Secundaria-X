@@ -18,3 +18,45 @@
     }
 }
    
+/*======== ANIMACIONES ========*/
+
+@keyframes animaciontitulo {
+    from {
+        margin-top: 100%;
+        height: 200%
+      }
+    
+      to {
+        margin-top: 0%;
+        height: 100%;
+      }
+    
+}
+
+/* FONT SIZES */
+
+#home-h2 {
+    text-decoration: underline;
+    color: rgb(2, 110, 110);
+    font-size: 17pt; 
+}
+
+main h3 {
+    font-size: 14pt;
+}
+
+main h4 {
+    font-size: 13pt;
+}
+
+main h5 {
+    font-size: 12pt;
+}
+
+main p {
+    font-size: 11pt;
+}
+
+nav {
+    font-size: 12pt;
+}
