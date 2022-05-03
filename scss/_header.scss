@@ -1,0 +1,54 @@
+header {grid-area: header;
+    width: 100%;
+    height: 200px;
+    background-image: url(./public/back1.jpg); 
+    background-size: cover; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(234, 239, 233);
+    
+    .contenedor {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .logo {
+        align-items: center;
+        justify-content: center;   
+     ;
+    }
+    .datos {
+        align-items: center;
+        justify-content: center;
+        justify-items: center
+    ;
+    }
+    
+    #header-titulo {
+        color: rgb(49, 70, 54);
+         text-align: center;
+         justify-content: center;
+         text-shadow: 2px 2px 4px rgb(131, 131, 131);
+         font-size: 20pt
+    ;}
+    
+    .datos {
+        animation-delay: 0ms;
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation-name: animaciontitulo;
+        animation-duration: 2s; 
+    }
+    
+    
+    #header-datos {
+            color: rgb(63, 63, 63); 
+            text-align: left;
+        }
+}
+
+    
