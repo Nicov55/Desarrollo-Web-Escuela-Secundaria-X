@@ -1,0 +1,23 @@
+{
+  "name": "desarrolloweb-coderhouse",
+  "version": "1.0.0",
+  "description": "Inicio SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicov55/desarrolloweb-coderhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicov55/desarrolloweb-coderhouse/issues"
+  },
+  "homepage": "https://github.com/Nicov55/desarrolloweb-coderhouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
