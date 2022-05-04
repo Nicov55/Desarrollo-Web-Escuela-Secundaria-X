@@ -1,25 +1,31 @@
+
 /*======== MEDIA QUERY ========*/
 
 @media screen and (min-width:768px) {
 
-    main { 
-        
-        h3 {
-            font-size: 14pt;
-            }
-        
-            h4 {
-            font-size: 13pt;
-            }
-        
-            h5 {
-            font-size: 12pt;
-            }
-        
-            p {
-            font-size: 11pt;
-            }
 
+     #home-h2 {
+        text-decoration: underline;
+        color: rgb(2, 110, 110);
+        font-size: 17pt; 
+    }
+    
+    main h3 {
+        font-size: 14pt;
+    }
+    
+    main h4 {
+        font-size: 13pt;
+    }
+    
+    main h5 {
+        font-size: 12pt;
+    }
+    
+    main p {
+        font-size: 11pt;
+    }
+    
     .main-grid { 
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -55,24 +61,31 @@
                     font-size: 17pt; 
                     }
                 }
-            
-
-
-    #nav-lista li {
-       padding: 0px 20px;
-    }
-    
-    li {
-        margin-bottom: 20px;
-    }
-
-    
 
     nav {
+
     font-size: 12pt;
+
+    #nav-lista li {
+        padding: 0px 20px;
+     }
+    }
+                 
+    li {
+    margin-bottom: 20px;
     }
 
-}
+        #footerdatos2 {
+            visibility: hidden;
+            display: none;
+          }
+          
+        #footerdatos1 {
+            visibility: visible;
+            display:block
+          }
+
+
 
 @media screen and (min-width:991px){
 

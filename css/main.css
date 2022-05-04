@@ -15,6 +15,10 @@ body {
 /*  =================================================== */
 /*======== MEDIA QUERY ========*/
 @media screen and (min-width: 768px) {
+  #home-h2 {
+    text-decoration: underline;
+    color: #026e6e;
+    font-size: 17pt; }
   main h3 {
     font-size: 14pt; }
   main h4 {
@@ -23,37 +27,47 @@ body {
     font-size: 12pt; }
   main p {
     font-size: 11pt; }
-  main .main-grid {
+  .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     grid-template-areas: "izquierda derecha"; }
-  main .ubicacion iframe {
+  .ubicacion iframe {
     width: 300px;
     height: 600px;
     border: solid #0ea1a1;
     border-radius: 30px; }
-  main .ubicacion {
+  .ubicacion {
     grid-area: derecha;
     text-align: center;
     padding-top: 30px;
     align-items: center;
     justify-content: center; }
-  main #home-h2ubi {
+  #home-h2ubi {
     text-decoration: underline;
     color: #026e6e;
     font-size: 13pt;
     text-align: center; }
-  main #home-h2 {
+  #home-h2 {
     text-decoration: underline;
     color: #026e6e;
-    font-size: 17pt; }
-  #nav-lista li {
+    font-size: 17pt; } }
+
+nav {
+  font-size: 12pt; }
+  nav #nav-lista li {
     padding: 0px 20px; }
-  li {
-    margin-bottom: 20px; }
-  nav {
-    font-size: 12pt; } }
+
+li {
+  margin-bottom: 20px; }
+
+#footerdatos2 {
+  visibility: hidden;
+  display: none; }
+
+#footerdatos1 {
+  visibility: visible;
+  display: block; }
 
 @media screen and (min-width: 991px) {
   .navbar-brand {
@@ -151,15 +165,15 @@ main {
     text-decoration: underline;
     color: #026e6e;
     font-size: 15pt; }
-  main main h3 {
+  main h3 {
     font-size: 12pt; }
-  main main h4 {
+  main h4 {
     font-size: 11pt; }
-  main main h5 {
+  main h5 {
     font-size: 10pt; }
-  main main p {
+  main p {
     font-size: 9pt; }
-  main main li {
+  main li {
     font-size: 9pt; }
   main .ubicacion {
     text-align: center;
@@ -229,20 +243,26 @@ aside {
 footer {
   grid-area: footer;
   width: 100%; }
-  footer .page-footer {
-    background-color: #c0eeaf; }
-  footer #footerdatos2 {
-    visibility: hidden;
-    display: none; }
-  footer #footerdatos1 {
-    visibility: visible;
-    display: block; }
-  footer h3 {
-    font-style: italic;
-    font-size: 8pt;
-    color: black; }
-  footer footer h5 {
-    font-size: 12pt bold;
-    text-align: center; }
-  footer footer h6 {
-    font-size: 9pt; }
+
+.page-footer {
+  background-color: #c0eeaf; }
+
+#footerdatos2 {
+  visibility: hidden;
+  display: none; }
+
+#footerdatos1 {
+  visibility: visible;
+  display: block; }
+
+h3 {
+  font-style: italic;
+  font-size: 8pt;
+  color: black; }
+
+footer h5 {
+  font-size: 12pt bold;
+  text-align: center; }
+
+footer h6 {
+  font-size: 9pt; }
