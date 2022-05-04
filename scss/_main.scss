@@ -85,41 +85,6 @@ main {
 
     li {margin-bottom: 20px;}
     
-    // ======= GRID =======
-
-    .main-grid { 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
-        grid-template-areas: 
-        "izquierda derecha";
-    }
-    
-            .ubicacion {
-        grid-area: derecha;
-        text-align: center;
-        padding-top: 30px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-            .ubicacion iframe {
-        width: 300px;
-        height: 600px;
-        border:solid rgb(14, 161, 161);
-        border-radius: 30px;
-    }
-    
-            #home-h2ubi {
-        text-decoration: underline;
-        color: rgb(2, 110, 110);
-        font-size: 13pt;
-        text-align: center; 
-    }
-    
-            li {margin-bottom: 20px;}
-
-
     
     /* =========MAIN(ALUMNOS)======== */
     .fichas {

@@ -14,15 +14,52 @@ body {
 
 /*  =================================================== */
 /*======== MEDIA QUERY ========*/
+@media screen and (min-width: 768px) {
+  main h3 {
+    font-size: 14pt; }
+  main h4 {
+    font-size: 13pt; }
+  main h5 {
+    font-size: 12pt; }
+  main p {
+    font-size: 11pt; }
+  main .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    grid-template-areas: "izquierda derecha"; }
+  main .ubicacion iframe {
+    width: 300px;
+    height: 600px;
+    border: solid #0ea1a1;
+    border-radius: 30px; }
+  main .ubicacion {
+    grid-area: derecha;
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center; }
+  main #home-h2ubi {
+    text-decoration: underline;
+    color: #026e6e;
+    font-size: 13pt;
+    text-align: center; }
+  main #home-h2 {
+    text-decoration: underline;
+    color: #026e6e;
+    font-size: 17pt; }
+  #nav-lista li {
+    padding: 0px 20px; }
+  li {
+    margin-bottom: 20px; }
+  nav {
+    font-size: 12pt; } }
+
 @media screen and (min-width: 991px) {
   .navbar-brand {
     visibility: hidden;
     overflow: hidden;
     display: none; } }
-
-@media screen and (min-width: 768px) {
-  #nav-lista li {
-    padding: 0px 20px; } }
 
 /*======== ANIMACIONES ========*/
 @keyframes animaciontitulo {
@@ -32,27 +69,6 @@ body {
   to {
     margin-top: 0%;
     height: 100%; } }
-
-/* FONT SIZES */
-#home-h2 {
-  text-decoration: underline;
-  color: #026e6e;
-  font-size: 17pt; }
-
-main h3 {
-  font-size: 14pt; }
-
-main h4 {
-  font-size: 13pt; }
-
-main h5 {
-  font-size: 12pt; }
-
-main p {
-  font-size: 11pt; }
-
-nav {
-  font-size: 12pt; }
 
 header {
   grid-area: header;
@@ -166,29 +182,6 @@ main {
     color: #026e6e;
     font-size: 13pt;
     text-align: left; }
-  main li {
-    margin-bottom: 20px; }
-  main .main-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    grid-template-areas: "izquierda derecha"; }
-  main .ubicacion {
-    grid-area: derecha;
-    text-align: center;
-    padding-top: 30px;
-    align-items: center;
-    justify-content: center; }
-  main .ubicacion iframe {
-    width: 300px;
-    height: 600px;
-    border: solid #0ea1a1;
-    border-radius: 30px; }
-  main #home-h2ubi {
-    text-decoration: underline;
-    color: #026e6e;
-    font-size: 13pt;
-    text-align: center; }
   main li {
     margin-bottom: 20px; }
   main .fichas {

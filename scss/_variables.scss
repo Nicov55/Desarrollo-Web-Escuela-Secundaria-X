@@ -1,23 +1,88 @@
 /*======== MEDIA QUERY ========*/
 
-@media screen and (min-width:991px){
-    
-    .navbar-brand {
-        visibility: hidden;
-        overflow: hidden;
-        display:none
-    }
-    
-    }
-    
-    
-    @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
 
-        #nav-lista li {
-           padding: 0px 20px;
+    main { 
+        
+        h3 {
+            font-size: 14pt;
+            }
+        
+            h4 {
+            font-size: 13pt;
+            }
+        
+            h5 {
+            font-size: 12pt;
+            }
+        
+            p {
+            font-size: 11pt;
+            }
+
+    .main-grid { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        grid-template-areas: 
+        "izquierda derecha";}
+        
+        .ubicacion iframe {
+        width: 300px;
+        height: 600px;
+        border:solid rgb(14, 161, 161);
+        border-radius: 30px;
+        }
+        
+        .ubicacion {
+            grid-area: derecha;
+            text-align: center;
+            padding-top: 30px;
+            align-items: center;
+            justify-content: center;
+            }
+            
+        #home-h2ubi {
+                text-decoration: underline;
+                color: rgb(2, 110, 110);
+                font-size: 13pt;
+                text-align: center; 
+                }
+
+        #home-h2 {
+                    text-decoration: underline;
+                    color: rgb(2, 110, 110);
+                    font-size: 17pt; 
+                    }
+                }
+            
+
+
+    #nav-lista li {
+       padding: 0px 20px;
     }
+    
+    li {
+        margin-bottom: 20px;
+    }
+
+    
+
+    nav {
+    font-size: 12pt;
+    }
+
 }
-   
+
+@media screen and (min-width:991px){
+
+.navbar-brand {
+    visibility: hidden;
+    overflow: hidden;
+    display:none
+}
+}
+
 /*======== ANIMACIONES ========*/
 
 @keyframes animaciontitulo {
@@ -30,33 +95,4 @@
         margin-top: 0%;
         height: 100%;
       }
-    
-}
-
-/* FONT SIZES */
-
-#home-h2 {
-    text-decoration: underline;
-    color: rgb(2, 110, 110);
-    font-size: 17pt; 
-}
-
-main h3 {
-    font-size: 14pt;
-}
-
-main h4 {
-    font-size: 13pt;
-}
-
-main h5 {
-    font-size: 12pt;
-}
-
-main p {
-    font-size: 11pt;
-}
-
-nav {
-    font-size: 12pt;
-}
+    }
