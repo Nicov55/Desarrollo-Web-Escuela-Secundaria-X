@@ -23,6 +23,9 @@ body {
     height: 100%; } }
 
 /*======== VARIABLES ========*/
+main h3 {
+  color: black; }
+
 header {
   grid-area: header;
   width: 100%;
@@ -102,8 +105,8 @@ main {
     list-style: none; }
   main #home-h2 {
     text-decoration: underline;
-    color: #6fa05e;
-    font-size: 15pt; }
+    font-size: 15pt;
+    color: #6fa05e; }
   main h3 {
     font-size: 12pt; }
   main h4 {

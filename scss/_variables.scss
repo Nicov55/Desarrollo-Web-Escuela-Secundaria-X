@@ -18,8 +18,17 @@
 $bgcolor: rgb(234, 239, 233);
 $colorbasic: rgb(192, 238, 175);
 $titlecolor: rgb(111, 160, 94);
-$ftitulos: 17pt;
-$fsubtitulos: 13pt;
-$festandar: 12pt;
-$ffechas: 14pt;
-$fcontenido: 11pt;
+
+// FONTSIZES
+// Desktop
+$fdtitulos: 17pt;
+$fdsubtitulos: 13pt;
+$fdestandar: 12pt;
+$fdfechas: 14pt;
+$fdcontenido: 11pt;
+// Mobile
+$fmtitulos: 15pt;
+$fmsubtitulos: 11pt;
+$fmestandar: 10pt;
+$fmfechas: 12pt;
+$fmcontenido: 9pt;
