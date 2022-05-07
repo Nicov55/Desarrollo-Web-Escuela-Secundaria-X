@@ -25,7 +25,7 @@ main {
     
     #home-h2 {
         text-decoration: underline;
-        color: rgb(2, 110, 110);
+        color: $titlecolor;
         font-size: 15pt; 
     }
     
@@ -65,20 +65,20 @@ main {
     .ubicacion iframe {
     width: 250px;
     height: 250px;
-    border:solid rgb(14, 161, 161);
+    border: solid $colorbasic;
     border-radius: 30px;
     }
 
     #home-h2 {
         text-decoration: underline;
-        color: rgb(2, 110, 110);
+        color: $titlecolor;
         font-size: 13pt;
         text-align: left; 
     }
 
     #home-h2ubi {
     text-decoration: underline;
-    color: rgb(2, 110, 110);
+    color: $titlecolor;
     font-size: 13pt;
     text-align: left; 
     }
@@ -90,13 +90,13 @@ main {
     .fichas {
     padding: 20px;
     border-radius: 20px;
-    border: solid rgb(0, 173, 116) 2px;
+    border: solid $colorbasic 2px;
     }
 
     .actividades {
     padding: 20px;
     border-radius: 20px;
-    border: solid rgb(0, 173, 116) 2px
+    border: solid $colorbasic 2px;
     
     }
 

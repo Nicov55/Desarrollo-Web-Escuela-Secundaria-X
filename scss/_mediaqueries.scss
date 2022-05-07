@@ -1,0 +1,118 @@
+
+/*======== MEDIA QUERIES ========*/
+
+@media screen and (min-width:768px) 
+
+{
+/* NAV */
+nav {
+    font-size: 12pt;
+    #nav-lista li {
+       padding: 0px 20px;
+}
+}
+
+
+/* --------MAIN GRID (NOSOTROS)-------- */
+
+main {
+    .main-grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    grid-template-areas: 
+    "izquierda derecha";
+    }
+
+    .ubicacion {
+    grid-area: derecha;
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .ubicacion iframe {
+    width: 300px;
+    height: 600px;
+    border:solid $colorbasic;
+    border-radius: 30px;
+    }
+
+    #home-h2ubi {
+    text-decoration: underline;
+    color: $titlecolor;
+    font-size: 13pt;
+    text-align: center; 
+    }
+
+    li {margin-bottom: 20px;}
+
+/* MAIN DOCENTES */
+
+    #tabladocentes {
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    list-style: none;
+
+
+    border-spacing: 20px;
+    font-size: small  ;
+    align-items: flex-start;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    }
+
+    main .col {
+    text-align: center;
+    font-size: 8pt
+    }
+
+    /* FONT SIZES (MAIN) */
+
+            #home-h2 {
+            text-decoration: underline;
+            font-size: $ftitulos;
+            color: $titlecolor
+            }
+
+            h3 {
+            font-size: $ffechas;
+            }
+
+            h4 {
+            font-size: $fsubtitulos
+            }
+
+            h5 {
+            font-size: $festandar;
+            }
+
+            p {
+            font-size: $fcontenido;
+            }
+        }
+
+/* FOOTER */
+
+#footerdatos2 {
+    visibility: hidden;
+    display: none;
+  }
+
+#footerdatos1 {
+    visibility: visible;
+    display:block
+  }
+}
+
+@media screen and (min-width:991px){
+
+.navbar-brand {
+    visibility: hidden;
+    overflow: hidden;
+    display:none
+}
+}

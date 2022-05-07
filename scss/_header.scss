@@ -7,7 +7,7 @@ header {grid-area: header;
     justify-content: center;
     text-align: center;
     margin: auto;
-    background-color: rgb(234, 239, 233);
+    background-color: $bgcolor;
     
     .contenedor {
         width: 90%;

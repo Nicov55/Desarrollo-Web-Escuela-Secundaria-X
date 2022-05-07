@@ -8,14 +8,14 @@ footer {
     }
   
     #footerdatos2 {
-      visibility: hidden;
-      display: none;
+      visibility: visible;
+      display: block;
     }
   
   
      #footerdatos1 {
-      visibility: visible;
-      display:block
+      visibility: hidden;
+      display:none
     }
   
     h3 {
