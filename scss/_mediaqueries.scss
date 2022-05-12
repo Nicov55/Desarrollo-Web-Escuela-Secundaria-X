@@ -4,6 +4,17 @@
 @media screen and (min-width:768px) 
 
 {
+    header {
+        .contenedor {
+            display: none;
+            visibility: hidden;
+        }
+
+        .contenedormq {
+            display:block;
+            visibility: visible;
+        }
+    }
 /* NAV */
 nav {
     font-size: 12pt;
@@ -88,6 +99,7 @@ main {
 
             h5 {
             font-size: $fdestandar;
+            
             }
 
             p {

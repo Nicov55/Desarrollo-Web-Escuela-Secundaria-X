@@ -5,7 +5,7 @@
 
 body {
   background-color: #eaefe9;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 .main-wrapper {
   display: grid;
@@ -16,11 +16,9 @@ body {
 /*======== ANIMACIONES ========*/
 @keyframes animaciontitulo {
   from {
-    margin-top: 100%;
-    height: 200%; }
+    opacity: 0%; }
   to {
-    margin-top: 0%;
-    height: 100%; } }
+    opacity: 100%; } }
 
 /*======== VARIABLES ========*/
 header {
@@ -35,6 +33,13 @@ header {
   margin: auto;
   background-color: #eaefe9; }
   header .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 40px; }
+  header .contenedormq {
+    visibility: hidden;
+    display: none;
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -57,7 +62,7 @@ header {
     display: inline-block;
     margin: 0 0.5rem;
     animation-name: animaciontitulo;
-    animation-duration: 2s; }
+    animation-duration: 3s; }
   header #header-datos {
     color: #3f3f3f;
     text-align: left; }
@@ -67,9 +72,7 @@ nav {
   padding-top: 20px;
   padding: 0%; }
   nav .navbar-nav {
-    padding-top: 12px; }
-  nav .d-flex {
-    padding-bottom: 15px; }
+    padding-top: 10px; }
   nav .navbar-nav li {
     font-size: 14pt; }
   nav .navbar-nav li:hover {
@@ -107,7 +110,8 @@ main {
   main h3 {
     font-size: 12pt; }
   main h4 {
-    font-size: 11pt; }
+    font-size: 11pt;
+    font-weight: bold; }
   main h5 {
     font-size: 10pt; }
   main p {
@@ -208,6 +212,12 @@ footer h6 {
 
 /*======== MEDIA QUERIES ========*/
 @media screen and (min-width: 768px) {
+  header .contenedor {
+    display: none;
+    visibility: hidden; }
+  header .contenedormq {
+    display: block;
+    visibility: visible; }
   /* NAV */
   nav {
     font-size: 12pt; }
