@@ -15,8 +15,8 @@
             visibility: visible;
         }
     }
-/* NAV */
-nav {
+  /* NAV */
+  nav {
     font-size: 12pt;
     #nav-lista li {
        padding: 0px 20px;
@@ -106,36 +106,53 @@ main {
             font-size: $fdcontenido;
             }
         }
+
+        footer {
+
+          padding: 30px;
+
+          #newsletter1 {
+            font-size: 14px
+          }
+      
+          .btn {
+            font-size: 16px
+          }
+
+          form h5 {
+            font-size: 18px
+          }
+          
+          .row {
+        
+            padding-left: 50px;
+        
+              h5 {
+                font-size: $fdestandar;
+              }
+          
+              .nav-item {
+                font-size: $fdcontenido;
+              }
+        
+            }
+        
+            .formulario {
+              font-size: 16px;
+        
+              p {
+                font-size: 13px
+              }
+            }
+        
+            .textofinal {
+              font-size: 12px;
+               text-align: center;
+            }
+
+          
+        }
     }
-
-
-footer {
-
-    
-  .row {
-      h5 {
-        font-size: $fdestandar;
-      }
-  
-      .nav-item {
-        font-size: $fdcontenido;
-      }
-
-    }
-
-    .formulario {
-      font-size: 16px;
-
-      p {
-        font-size: 13px
-      }
-    }
-
-    .textofinal {
-      font-size: 12px;
-       text-align: center;
-    }
-}
 
 @media screen and (min-width:991px){
 

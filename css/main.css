@@ -192,26 +192,21 @@ footer {
   grid-area: footer;
   width: 100%;
   background-color: #c0eeaf;
-  margin: 0%; }
+  margin: 0%;
+  padding: 10px; }
+  footer #newsletter1 {
+    font-size: 8px; }
+  footer .btn {
+    font-size: 10px; }
+  footer form h5 {
+    font-size: 12px; }
   footer .d-flex {
     margin: 0%; }
-  footer .contenedorf {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
-    padding: 10px;
-    padding-left: 50px;
-    text-align: center;
-    align-self: center;
-    align-items: center; }
   footer .row h5 {
     font-size: 11px; }
   footer .row .nav-item {
-    font-size: 10px; }
+    font-size: 10px;
+    text-decoration: none; }
   footer .formulario {
     width: 1fr;
     font-size: 11px; }
@@ -288,22 +283,28 @@ p {
     main h5 {
       font-size: 17px; }
     main p {
-      font-size: 16px; } }
-
-footer .row h5 {
-  font-size: 17px; }
-
-footer .row .nav-item {
-  font-size: 16px; }
-
-footer .formulario {
-  font-size: 16px; }
-  footer .formulario p {
-    font-size: 13px; }
-
-footer .textofinal {
-  font-size: 12px;
-  text-align: center; }
+      font-size: 16px; }
+  footer {
+    padding: 30px; }
+    footer #newsletter1 {
+      font-size: 14px; }
+    footer .btn {
+      font-size: 16px; }
+    footer form h5 {
+      font-size: 18px; }
+    footer .row {
+      padding-left: 50px; }
+      footer .row h5 {
+        font-size: 17px; }
+      footer .row .nav-item {
+        font-size: 16px; }
+    footer .formulario {
+      font-size: 16px; }
+      footer .formulario p {
+        font-size: 13px; }
+    footer .textofinal {
+      font-size: 12px;
+      text-align: center; } }
 
 @media screen and (min-width: 991px) {
   .navbar-brand {
