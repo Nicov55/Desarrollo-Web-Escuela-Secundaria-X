@@ -175,19 +175,6 @@ main .col {
   text-align: center;
   font-size: 8pt; }
 
-aside {
-  align-items: right;
-  padding: 0%;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-  justify-self: right;
-  margin-right: 25px; }
-  aside .nav-item {
-    background-color: #c0eeaf; }
-  aside nav {
-    background-color: #c0eeaf; }
-
 footer {
   grid-area: footer;
   width: 100%;
