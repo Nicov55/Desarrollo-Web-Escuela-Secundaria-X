@@ -214,8 +214,10 @@ footer {
     font-size: 10px; }
   footer .formulario {
     width: 1fr;
-    font-size: 11px;
-    text-align: left; }
+    font-size: 11px; }
+    footer .formulario text-align:left
+p {
+      font-size: 8px; }
   footer .textofinal {
     text-align: center;
     background-color: #c0eeaf;
@@ -296,9 +298,11 @@ footer .row .nav-item {
 
 footer .formulario {
   font-size: 16px; }
+  footer .formulario p {
+    font-size: 13px; }
 
 footer .textofinal {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center; }
 
 @media screen and (min-width: 991px) {

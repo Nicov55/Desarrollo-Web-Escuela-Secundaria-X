@@ -118,19 +118,23 @@ footer {
       }
   
       .nav-item {
-        font-size: $fdcontenido
+        font-size: $fdcontenido;
       }
 
     }
 
-      .formulario {
-        font-size: 16px
-      }
+    .formulario {
+      font-size: 16px;
 
-      .textofinal {
-        font-size: 11px;
-         text-align: center;
+      p {
+        font-size: 13px
       }
+    }
+
+    .textofinal {
+      font-size: 12px;
+       text-align: center;
+    }
 }
 
 @media screen and (min-width:991px){
