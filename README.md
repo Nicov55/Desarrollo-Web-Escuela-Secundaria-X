@@ -19,6 +19,8 @@ Include mostrar y ocultar en main,header y mq
 
 Extend ".fichas" en main (alumnos)
 
+Favicon en todos los HTML
+
 <!-- INDEX -->
 
 Agregado SEO (Titles, Keywords, Description)
