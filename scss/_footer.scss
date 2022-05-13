@@ -1,33 +1,54 @@
 footer {
     grid-area: footer;
 
-    width: 100%;}
-
-    .page-footer {
-      background-color: $colorbasic; 
-    }
-  
-    #footerdatos2 {
-      visibility: visible;
-      display: block;
-    }
-  
-  
-     #footerdatos1 {
-      visibility: hidden;
-      display:none
-    }
-  
-    h3 {
-      font-style: italic; font-size: 8pt; color: black;
-    }
-  
-    footer h5 {
-        font-size: 12pt bold;
-        text-align: center;
-       
-    }
+    width: 100%;
     
-    footer h6 { font-size: 9pt;
-  
+    background-color: $colorbasic; 
+
+    margin: 0%;
+
+    .d-flex {
+      margin: 0%;
     }
+
+    .contenedorf {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(-1 * var(--bs-gutter-y));
+      margin-right: calc(-.5 * var(--bs-gutter-x));
+      margin-left: calc(-.5 * var(--bs-gutter-x));
+      padding:10px;
+      padding-left:50px;
+      text-align: center;
+      align-self: center;
+      align-items: center;
+      
+    }
+
+    .row {
+
+    h5 {
+      font-size: 11px;
+    }
+
+    .nav-item {
+      font-size: 10px;
+    }
+
+    
+  }
+
+  .formulario {
+    width: 1fr;
+    font-size: 11px;
+    text-align:left
+  }
+
+  .textofinal {
+    text-align: center;
+    background-color: $colorbasic;
+    font-size: 8px;
+  }
+}

@@ -106,18 +106,31 @@ main {
             font-size: $fdcontenido;
             }
         }
+    }
 
-/* FOOTER */
 
-#footerdatos2 {
-    visibility: hidden;
-    display: none;
-  }
+footer {
 
-#footerdatos1 {
-    visibility: visible;
-    display:block
-  }
+    
+  .row {
+      h5 {
+        font-size: $fdestandar;
+      }
+  
+      .nav-item {
+        font-size: $fdcontenido
+      }
+
+    }
+
+      .formulario {
+        font-size: 16px
+      }
+
+      .textofinal {
+        font-size: 11px;
+         text-align: center;
+      }
 }
 
 @media screen and (min-width:991px){

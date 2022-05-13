@@ -3,6 +3,7 @@ nav {
     padding-top: 20px;
     
     padding: 0%;
+    background-color: $colorbasic;
     
     .navbar-nav {
         padding-top: 10px;
@@ -22,5 +23,8 @@ nav {
     .navbar-brand {
         padding-top: 10px;
         font-size: 15pt;
+    }
+    .container-fluid {
+        background-color: $colorbasic;
     }
 }

@@ -70,7 +70,8 @@ header {
 nav {
   grid-area: nav;
   padding-top: 20px;
-  padding: 0%; }
+  padding: 0%;
+  background-color: #c0eeaf; }
   nav .navbar-nav {
     padding-top: 10px; }
   nav .navbar-nav li {
@@ -83,6 +84,8 @@ nav {
   nav .navbar-brand {
     padding-top: 10px;
     font-size: 15pt; }
+  nav .container-fluid {
+    background-color: #c0eeaf; }
 
 main {
   grid-area: main;
@@ -187,30 +190,36 @@ aside {
 
 footer {
   grid-area: footer;
-  width: 100%; }
-
-.page-footer {
-  background-color: #c0eeaf; }
-
-#footerdatos2 {
-  visibility: visible;
-  display: block; }
-
-#footerdatos1 {
-  visibility: hidden;
-  display: none; }
-
-h3 {
-  font-style: italic;
-  font-size: 8pt;
-  color: black; }
-
-footer h5 {
-  font-size: 12pt bold;
-  text-align: center; }
-
-footer h6 {
-  font-size: 9pt; }
+  width: 100%;
+  background-color: #c0eeaf;
+  margin: 0%; }
+  footer .d-flex {
+    margin: 0%; }
+  footer .contenedorf {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    padding: 10px;
+    padding-left: 50px;
+    text-align: center;
+    align-self: center;
+    align-items: center; }
+  footer .row h5 {
+    font-size: 11px; }
+  footer .row .nav-item {
+    font-size: 10px; }
+  footer .formulario {
+    width: 1fr;
+    font-size: 11px;
+    text-align: left; }
+  footer .textofinal {
+    text-align: center;
+    background-color: #c0eeaf;
+    font-size: 8px; }
 
 /*======== MEDIA QUERIES ========*/
 @media screen and (min-width: 768px) {
@@ -277,14 +286,20 @@ footer h6 {
     main h5 {
       font-size: 17px; }
     main p {
-      font-size: 16px; }
-  /* FOOTER */
-  #footerdatos2 {
-    visibility: hidden;
-    display: none; }
-  #footerdatos1 {
-    visibility: visible;
-    display: block; } }
+      font-size: 16px; } }
+
+footer .row h5 {
+  font-size: 17px; }
+
+footer .row .nav-item {
+  font-size: 16px; }
+
+footer .formulario {
+  font-size: 16px; }
+
+footer .textofinal {
+  font-size: 11px;
+  text-align: center; }
 
 @media screen and (min-width: 991px) {
   .navbar-brand {
