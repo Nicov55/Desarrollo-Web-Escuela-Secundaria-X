@@ -78,9 +78,7 @@ main {
     }
 
     #home-h2ubi {
-    @include title;
-    font-size: 13pt;
-    text-align: left; 
+    @extend #home-h2
     }
 
     li {margin-bottom: 20px;}
@@ -94,10 +92,7 @@ main {
     }
 
     .actividades {
-    padding: 20px;
-    border-radius: 20px;
-    border: solid $colorbasic 2px;
-    
+    @extend .fichas;
     }
 
     #tablaalumnos{

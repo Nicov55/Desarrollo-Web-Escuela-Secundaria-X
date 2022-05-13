@@ -4,18 +4,21 @@
 @media screen and (min-width:768px) 
 
 {
+/* HEADER */
+
     header {
         .contenedor {
-            display: none;
-            visibility: hidden;
+            @include ocultar;
         }
 
         .contenedormq {
-            display:block;
-            visibility: visible;
+            @include mostrar;
         }
     }
-  /* NAV */
+
+
+/* NAV */
+
   nav {
     font-size: 12pt;
     #nav-lista li {
@@ -24,7 +27,7 @@
 }
 
 
-/* --------MAIN GRID (NOSOTROS)-------- */
+/* MAIN GRID (NOSOTROS) */
 
 main {
     .main-grid { 
@@ -155,8 +158,6 @@ main {
 @media screen and (min-width:991px){
 
 .navbar-brand {
-    visibility: hidden;
-    overflow: hidden;
-    display:none
+@include ocultar;
 }
 }

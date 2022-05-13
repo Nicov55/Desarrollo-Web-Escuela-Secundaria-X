@@ -25,6 +25,7 @@ $colores: (
 $bgcolor: map-get($map: $colores, $key: general);
 $colorbasic: map-get($map: $colores, $key: basico);
 $titlecolor:map-get($map: $colores, $key:titulos);
+$sombrabasica: 2px 2px 4px rgb(131, 131, 131); 
 
 // FONTSIZES
 
@@ -53,6 +54,19 @@ $fmcontenido: $fdcontenido - 3;
 @mixin title {
   text-decoration: underline;
   color: $titlecolor;
+  
+}
+
+@mixin ocultar {
+  visibility: hidden;
+  overflow: hidden;
+  display: none;
+  
+}
+
+@mixin mostrar {
+  display:block;
+  visibility: visible;
   
 }
 

@@ -39,6 +39,7 @@ header {
     padding-top: 40px; }
   header .contenedormq {
     visibility: hidden;
+    overflow: hidden;
     display: none;
     width: 90%;
     max-width: 1200px;
@@ -108,7 +109,7 @@ main {
     text-align: left; }
   main main ul {
     list-style: none; }
-  main #home-h2 {
+  main #home-h2, main #home-h2ubi {
     text-decoration: underline;
     font-size: 22px;
     color: #6fa05e; }
@@ -134,23 +135,14 @@ main {
     height: 250px;
     border: solid #c0eeaf;
     border-radius: 30px; }
-  main #home-h2 {
-    text-decoration: underline;
-    color: #6fa05e;
-    font-size: 13pt;
-    text-align: left; }
-  main #home-h2ubi {
+  main #home-h2, main #home-h2ubi {
     text-decoration: underline;
     color: #6fa05e;
     font-size: 13pt;
     text-align: left; }
   main li {
     margin-bottom: 20px; }
-  main .fichas {
-    padding: 20px;
-    border-radius: 20px;
-    border: solid #c0eeaf 2px; }
-  main .actividades {
+  main .fichas, main .actividades {
     padding: 20px;
     border-radius: 20px;
     border: solid #c0eeaf 2px; }
@@ -197,8 +189,7 @@ footer {
   footer .formulario {
     width: 1fr;
     font-size: 11px; }
-    footer .formulario text-align:left
-p {
+    footer .formulario text-align:left p {
       font-size: 8px; }
   footer .textofinal {
     text-align: center;
@@ -207,9 +198,11 @@ p {
 
 /*======== MEDIA QUERIES ========*/
 @media screen and (min-width: 768px) {
+  /* HEADER */
   header .contenedor {
-    display: none;
-    visibility: hidden; }
+    visibility: hidden;
+    overflow: hidden;
+    display: none; }
   header .contenedormq {
     display: block;
     visibility: visible; }
@@ -218,7 +211,7 @@ p {
     font-size: 12pt; }
     nav #nav-lista li {
       padding: 0px 20px; }
-  /* --------MAIN GRID (NOSOTROS)-------- */
+  /* MAIN GRID (NOSOTROS) */
   main {
     /* MAIN DOCENTES */
     /* FONT SIZES (MAIN) */ }
@@ -259,7 +252,7 @@ p {
     main main .col {
       text-align: center;
       font-size: 8pt; }
-    main #home-h2 {
+    main #home-h2, main #home-h2ubi {
       text-decoration: underline;
       color: #6fa05e;
       font-size: 25px; }

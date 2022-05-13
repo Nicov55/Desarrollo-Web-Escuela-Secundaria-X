@@ -5,13 +5,19 @@ Proyecto Desarrollo Web - Coderhouse
 
 Delete Aside - _aside.scss
 
-Mapa Fontsize en variables.scss
+Mapa Fontsizes en variables.scss
 
 Mapa Colores en variables.scss
 
 Mixin title en variables.scss
 
+Mixin mostrar y ocultar en variables.scss
+
 Include title en main y mq
+
+Include mostrar y ocultar en main,header y mq
+
+Extend ".fichas" en main (alumnos)
 
 <!-- INDEX -->
 

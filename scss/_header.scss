@@ -18,8 +18,7 @@ header {grid-area: header;
 
         
     .contenedormq {
-        visibility: hidden;
-        display: none;
+        @include ocultar;
         width: 90%;
         max-width: 1200px;
         margin: auto;
@@ -42,7 +41,7 @@ header {grid-area: header;
         color: rgb(49, 70, 54);
          text-align: center;
          justify-content: center;
-         text-shadow: 2px 2px 4px rgb(131, 131, 131);
+         text-shadow: $sombrabasica;
          font-size: 20pt
     ;}
     
