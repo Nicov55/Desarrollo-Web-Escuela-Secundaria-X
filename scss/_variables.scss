@@ -14,23 +14,35 @@
 
 /*======== VARIABLES ========*/
 
-$bgcolor: rgb(234, 239, 233);
-$colorbasic: rgb(192, 238, 175);
-$titlecolor: rgb(111, 160, 94);
+$colores: (
+  general: rgb(234, 239, 233),
+  basico: rgb(192, 238, 175),
+  titulos: rgb(111, 160, 94)
+);
+
+$bgcolor: map-get($map: $colores, $key: general);
+$colorbasic: map-get($map: $colores, $key: basico);
+$titlecolor:map-get($map: $colores, $key:titulos);
 
 // FONTSIZES
 
-// Desktop
-$fdtitulos: 25px;
-$fdfechas: 19px;
-$fdsubtitulos: 18px; 
-$fdestandar: 17px;
-$fdcontenido: 16px;
-// Mobile
-$fmtitulos: 22px;
-$fmfechas: 17px;
-$fmsubtitulos: 16px;
-$fmestandar: 15px;
-$fmcontenido: 14px;
+$fontdesktop: (
+  titulos: 25px,
+  fechas: 19px,
+  subtitulos: 18px,
+  estandar: 17px,
+  contenido: 16px,
+);
 
+$fdtitulos: map-get($map: $fontdesktop, $key: titulos);
+$fdfechas: map-get($map: $fontdesktop, $key: fechas );
+$fdsubtitulos: map-get($map: $fontdesktop, $key: subtitulos );
+$fdestandar: map-get($map: $fontdesktop, $key: estandar );
+$fdcontenido: map-get($map: $fontdesktop, $key: contenido );
+
+$fmtitulos: $fdtitulos - 3;
+$fmsubtitulos: $fdsubtitulos - 3;
+$fmfechas: $fdfechas - 3;
+$fmestandar: $fdestandar - 3;
+$fmcontenido: $fdcontenido - 3;
 

@@ -113,16 +113,16 @@ main {
     font-size: 22px;
     color: #6fa05e; }
   main h3 {
-    font-size: 17px; }
+    font-size: 16px; }
   main h4 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold; }
   main h5 {
-    font-size: 15px; }
+    font-size: 14px; }
   main p {
-    font-size: 14px; }
+    font-size: 13px; }
   main li {
-    font-size: 14px; }
+    font-size: 13px; }
   main .ubicacion {
     text-align: center;
     padding-top: 30px;
@@ -302,3 +302,5 @@ p {
 /*  ============= CONDICIONALES ================ */
 h5 {
   color: #6fa05e; }
+
+/*  ============= MAP ================ */
