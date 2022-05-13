@@ -107,19 +107,19 @@ main {
     list-style: none; }
   main #home-h2 {
     text-decoration: underline;
-    font-size: 15pt;
+    font-size: 22px;
     color: #6fa05e; }
   main h3 {
-    font-size: 12pt; }
+    font-size: 17px; }
   main h4 {
-    font-size: 11pt;
+    font-size: 16px;
     font-weight: bold; }
   main h5 {
-    font-size: 10pt; }
+    font-size: 15px; }
   main p {
-    font-size: 9pt; }
+    font-size: 14px; }
   main li {
-    font-size: 9pt; }
+    font-size: 14px; }
   main .ubicacion {
     text-align: center;
     padding-top: 30px;
@@ -268,16 +268,16 @@ footer h6 {
       font-size: 8pt; }
     main #home-h2 {
       text-decoration: underline;
-      font-size: 17pt;
+      font-size: 25px;
       color: #6fa05e; }
     main h3 {
-      font-size: 14pt; }
+      font-size: 19px; }
     main h4 {
-      font-size: 13pt; }
+      font-size: 18px; }
     main h5 {
-      font-size: 12pt; }
+      font-size: 17px; }
     main p {
-      font-size: 11pt; }
+      font-size: 16px; }
   /* FOOTER */
   #footerdatos2 {
     visibility: hidden;
@@ -291,3 +291,7 @@ footer h6 {
     visibility: hidden;
     overflow: hidden;
     display: none; } }
+
+/*  ============= CONDICIONALES ================ */
+h5 {
+  color: #6fa05e; }

@@ -22,6 +22,7 @@ grid-template-areas:
 
 }
 
+
 /*  =================================================== */
 
 @import "_variables.scss";
@@ -34,3 +35,10 @@ grid-template-areas:
 
 
 
+/*  ============= CONDICIONALES ================ */
+
+h5{
+    @if font-size==$fdfechas or $fmfechas {color: $titlecolor}
+
+    @else if font-size!=$fdfechas or $fmfechas {color: black}
+}
