@@ -5,6 +5,14 @@ Proyecto Desarrollo Web - Coderhouse
 
 Delete Aside - _aside.scss
 
+Mapa Fontsize en variables.scss
+
+Mapa Colores en variables.scss
+
+Mixin title en variables.scss
+
+Include title en main y mq
+
 <!-- INDEX -->
 
 Agregado SEO (Titles, Keywords, Description)

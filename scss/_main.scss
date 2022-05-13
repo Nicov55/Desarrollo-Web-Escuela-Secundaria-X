@@ -16,7 +16,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: space-between 2em;
-        background-color: rgb(234, 239, 233);
+        background-color: $bgcolor;
         text-align: left;
     
     }
@@ -72,15 +72,13 @@ main {
     }
 
     #home-h2 {
-        text-decoration: underline;
-        color: $titlecolor;
+        @include title;
         font-size: 13pt;
         text-align: left; 
     }
 
     #home-h2ubi {
-    text-decoration: underline;
-    color: $titlecolor;
+    @include title;
     font-size: 13pt;
     text-align: left; 
     }

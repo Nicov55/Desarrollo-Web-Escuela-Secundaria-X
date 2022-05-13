@@ -51,8 +51,7 @@ main {
     }
 
     #home-h2ubi {
-    text-decoration: underline;
-    color: $titlecolor;
+    @include title;
     font-size: 13pt;
     text-align: center; 
     }
@@ -84,9 +83,8 @@ main {
     /* FONT SIZES (MAIN) */
 
             #home-h2 {
-            text-decoration: underline;
+            @include title;
             font-size: $fdtitulos;
-            color: $titlecolor
             }
 
             h3 {

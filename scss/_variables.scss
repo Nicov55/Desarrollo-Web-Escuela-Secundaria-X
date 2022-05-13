@@ -14,6 +14,8 @@
 
 /*======== VARIABLES ========*/
 
+// COLORES
+
 $colores: (
   general: rgb(234, 239, 233),
   basico: rgb(192, 238, 175),
@@ -45,4 +47,14 @@ $fmsubtitulos: $fdsubtitulos - 3;
 $fmfechas: $fdfechas - 3;
 $fmestandar: $fdestandar - 3;
 $fmcontenido: $fdcontenido - 3;
+
+// MIXIN
+
+@mixin title {
+  text-decoration: underline;
+  color: $titlecolor;
+  
+}
+
+
 
