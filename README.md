@@ -1,5 +1,7 @@
 Escuela de Educación Secundaria N°1
-Entrega Final - CoderHouse Autor: Nicolás Verón 
+
+Entrega Final - CoderHouse   //////   Autor: Nicolás Verón
+
 
 Este es un repositorio de desarrollo web relativo a una página de una escuela secundaria, ámbito en el cual me desempeño como docente.
 
