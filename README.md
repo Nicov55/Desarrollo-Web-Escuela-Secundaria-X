@@ -1,52 +1,8 @@
-# desarrolloweb-coderhouse
+Escuela de Educación Secundaria N°1
+Entrega Final - CoderHouse Autor: Nicolás Verón 
+
+Este es un repositorio de desarrollo web relativo a una página de una escuela secundaria, ámbito en el cual me desempeño como docente.
+
+Se utilizaron todas las herramientas trabajadas en el curso y se encuentra abierto como modelo de prueba a incorporar más herramientas que permitan la progresión del sitio a lo largo del tiempo.
+
 Proyecto Desarrollo Web - Coderhouse
-
-<!-- GENERAL -->
-
-Delete Aside - _aside.scss
-
-Mapa Fontsizes en variables.scss
-
-Mapa Colores en variables.scss
-
-Mixin title en variables.scss
-
-Mixin mostrar y ocultar en variables.scss
-
-Include title en main y mq
-
-Include mostrar y ocultar en main,header y mq
-
-Extend ".fichas" en main (alumnos)
-
-Favicon en todos los HTML
-
-<!-- INDEX -->
-
-Agregado SEO (Titles, Keywords, Description)
-
-Modificación Footer 
-
-<!-- NOSOTROS -->
-
-Agregado SEO (Titles, Keywords, Description)
-
-Modificación Footer 
-
-<!-- OFERTA ED -->
-
-Agregado SEO (Titles, Keywords, Description)
-
-Modificación Footer 
-
-<!-- ALUMNOS -->
-
-Agregado SEO (Titles, Keywords, Description)
-
-Modificación Footer 
-
-<!-- DOCENTES -->
-
-Agregado SEO (Titles, Keywords, Description)
-
-Modificación Footer 

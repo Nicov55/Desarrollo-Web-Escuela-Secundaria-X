@@ -1,0 +1,49 @@
+<!-- GENERAL -->
+
+Delete Aside - _aside.scss
+
+Mapa Fontsizes en variables.scss
+
+Mapa Colores en variables.scss
+
+Mixin title en variables.scss
+
+Mixin mostrar y ocultar en variables.scss
+
+Include title en main y mq
+
+Include mostrar y ocultar en main,header y mq
+
+Extend ".fichas" en main (alumnos)
+
+Favicon en todos los HTML
+
+<!-- INDEX -->
+
+Agregado SEO (Titles, Keywords, Description)
+
+Modificación Footer 
+
+<!-- NOSOTROS -->
+
+Agregado SEO (Titles, Keywords, Description)
+
+Modificación Footer 
+
+<!-- OFERTA ED -->
+
+Agregado SEO (Titles, Keywords, Description)
+
+Modificación Footer 
+
+<!-- ALUMNOS -->
+
+Agregado SEO (Titles, Keywords, Description)
+
+Modificación Footer 
+
+<!-- DOCENTES -->
+
+Agregado SEO (Titles, Keywords, Description)
+
+Modificación Footer 
