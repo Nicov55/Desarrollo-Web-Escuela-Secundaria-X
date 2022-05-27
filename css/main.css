@@ -91,7 +91,7 @@ nav {
 main {
   grid-area: main;
   display: grid;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 96% 4%;
   gap: 1.5em;
   /* =========MAIN(BASIC)======== */
   /* =========MAIN(NOSOTROS)======== */
@@ -236,7 +236,7 @@ footer {
       align-items: center;
       justify-content: center; }
     main .ubicacion iframe, main .indeximg iframe {
-      width: 300px;
+      width: 400px;
       height: 600px;
       border: solid #c0eeaf;
       border-radius: 30px; }
