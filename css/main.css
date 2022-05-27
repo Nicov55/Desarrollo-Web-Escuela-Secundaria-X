@@ -115,7 +115,7 @@ main {
     color: #6fa05e; }
   main h3 {
     font-size: 16px; }
-  main h4 {
+  main h4, main summary {
     font-size: 15px;
     font-weight: bold; }
   main h5 {
@@ -124,13 +124,16 @@ main {
     font-size: 13px; }
   main li {
     font-size: 13px; }
-  main .ubicacion {
+  main #carouselExampleIndicators {
+    text-align: center;
+    padding-left: 40px; }
+  main .ubicacion, main .indeximg {
     text-align: center;
     padding-top: 30px;
     align-items: center;
     justify-content: center;
     justify-self: right; }
-  main .ubicacion iframe {
+  main .ubicacion iframe, main .indeximg iframe {
     width: 250px;
     height: 250px;
     border: solid #c0eeaf;
@@ -211,6 +214,12 @@ footer {
     font-size: 12pt; }
     nav #nav-lista li {
       padding: 0px 20px; }
+  /* MAIN INDEX */
+  #carouselExampleIndicators {
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-left: 30px; }
   /* MAIN GRID (NOSOTROS) */
   main {
     /* MAIN DOCENTES */
@@ -220,13 +229,13 @@ footer {
       grid-template-columns: 1fr 1fr;
       gap: 1em;
       grid-template-areas: "izquierda derecha"; }
-    main .ubicacion {
+    main .ubicacion, main .indeximg {
       grid-area: derecha;
       text-align: center;
       padding-top: 30px;
       align-items: center;
       justify-content: center; }
-    main .ubicacion iframe {
+    main .ubicacion iframe, main .indeximg iframe {
       width: 300px;
       height: 600px;
       border: solid #c0eeaf;
@@ -258,7 +267,7 @@ footer {
       font-size: 25px; }
     main h3 {
       font-size: 19px; }
-    main h4 {
+    main h4, main summary {
       font-size: 18px; }
     main h5 {
       font-size: 17px; }
